@@ -1,6 +1,6 @@
 import { ClientUser } from 'discord.js';
 
-import Command from '../CommandInterface';
+import Command from '../types/CommandInterface';
 
 const connect: Command = {
   name: 'connect',

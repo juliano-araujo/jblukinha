@@ -1,5 +1,5 @@
 import { Message } from 'discord.js';
-import Player from './Player';
+import Player from '../classes/Player';
 
 interface Command {
   name: string;

@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
 import Fuse from 'fuse.js';
 
-import shuffleArray from './utils/shuffleArray';
+import shuffleArray from '../utils/shuffleArray';
 
 interface eventListeners {
   songChanged: (actualSong: string) => void;

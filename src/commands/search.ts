@@ -1,6 +1,6 @@
 import { Message, MessageEmbed } from 'discord.js';
 
-import Command from '../CommandInterface';
+import Command from '../types/CommandInterface';
 import getArchiveNameFromPath from '../utils/getArchiveNameFromPath';
 
 const search: Command = {

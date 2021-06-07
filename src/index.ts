@@ -4,10 +4,10 @@ import glob from 'glob';
 import { promises as fs } from 'fs';
 import dotenv from 'dotenv';
 
-import Queue from './Queue';
+import Queue from './classes/Queue';
 import { prefix, tracksFolder } from '../settings.json';
-import Command from './CommandInterface';
-import Player from './Player';
+import Command from './types/CommandInterface';
+import Player from './classes/Player';
 
 dotenv.config();
 

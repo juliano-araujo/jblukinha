@@ -1,4 +1,4 @@
-import Command from '../CommandInterface';
+import Command from '../types/CommandInterface';
 
 const pause: Command = {
   name: 'pause',
