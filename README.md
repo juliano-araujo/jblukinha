@@ -1,4 +1,4 @@
-# Nome super criativo para o bot
+# JBLukinha
 
 Esse bot para discord, feito inteiramente em Typescript (💙), lê e reproduz
 áudios locais da máquina em forma de broadcast, ou seja, em todas as conexões
